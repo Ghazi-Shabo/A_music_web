@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/img/music-tem1cover.png);
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap {
+    width: 80%;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+   height:100px;
+   align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 900px;
+    
+   
+}
+.logo1 {
+    height: 55px;
+}
+.logo2   {
+   color: white;
+   width: 90px;
+   padding-left: 5px;
+   font-size: 18px;
+   font-family: 'Catamaran', sans-serif;
+   letter-spacing: 1px;
+   font-weight: 400;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 0;
+    letter-spacing: 1px;
+}
+.navbar ul li {
+    list-style: none;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+
+
+}
+/* main-header  */
+
+.main-header {
+    display: flex;
+   align-items: center;
+   
+   width: 90vw;
+   height:  837px ;
+  
+    
+}
+.main-img img  {
+    
+  align-self: flex-end;
+   
+   
+    
+}
+.main-texts {
+ 
+  padding-left: 200px;
+   height: 837px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 40vw;
+   
+   
+}
+.main-girl-img   {
+    display: flex;
+    align-self: flex-end ;
+    
+}
+.main-img {
+    height: 700px;
+    padding-left: 100px;
+}
+.main-title {
+          padding-bottom: 20px;
+          font-size: 50px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+}
+.main-text {
+    font-size: 22px;
+    width: 440px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main-btn {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(24, 110, 150);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
